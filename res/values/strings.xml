@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Emocionometro</string>
+<string name="mainServiceStart">Start monitoring</string>
+<string name="mainServiceStop">Stop monitoring</string><string name="surveyHistory">Survey history</string>
+
+
+<string name="DeleteWarning">Are you sure you want to delete all gathered data?</string>
+<string name="DeleteWarningTitle">Warning!</string>
+<string name="yesString">Yes</string>
+<string name="noString">No</string>
+<string name="editConfig">Configuration</string>
+<string name="accept">Accept</string>
+<string name="cancel">Cancel</string>
+<string name="passNeeded">Password needed</string>
+<string name="experimentAbandoned">Are you sure you want to leave the experiment? If so, why?</string>
+<string name="privacyDisclaimer">During your participation in this study, you will be  providing personal data about yourself each time you  use the IUM to record how happy you are feeling.  This  data is being collected as part of a research project,  and it will only be used for this purpose.  It will  NOT be disclosed, shared, rented, sold, or otherwise  given to any other person or organisation.  However,  we may use it as anonymous data in refereed research  publications, but this will be done in such a way that  the data cannot be connected to you, nor you  identified with the data. \n\n If you have any concerns, doubts, or questions about  any aspect of the capture, use, and privacy of the data  you will provide, now, or at any time in the future  please contact us at:\nTel. +[34] 943 010 885\nEmail: tourgune@tourgune.org</string>
+
+</resources>

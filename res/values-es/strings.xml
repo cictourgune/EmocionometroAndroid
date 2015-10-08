@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Emocionometro</string>
+<string name="mainServiceStart">Iniciar monitorización</string>
+<string name="mainServiceStop">Detener monitorización</string><string name="surveyHistory">Historial encuestas</string>
+
+
+<string name="DeleteWarning">¿Estás seguro que deseas borrar toda la información recogida?</string>
+<string name="DeleteWarningTitle">Atención!</string>
+<string name="yesString">Sí</string>
+<string name="noString">No</string>
+<string name="editConfig">Configuración</string>
+<string name="accept">Aceptar</string>
+<string name="cancel">Cancelar</string>
+<string name="passNeeded">Necesaria contraseña</string>
+<string name="experimentAbandoned">¿Realmente deseas abandonar el experimento? Porqué?</string>
+<string name="privacyDisclaimer">Durante tu participación en este estudio, darás  información personal sobre ti cada vez que utilices  el emocionómetro. Esta  recoleción de información forma parte de un proyecto   de investigación, y solo será usada con este propósito.  NO será divulgada, compartida, alquilada, vendida, u ofrecida  de cualquier otro modo a ninguna otra persona u organización.  En cualquier caso, puede que la utilicemos como información  anónima en publicaciones de investigación, pero se hará  de forma que ni la información pueda ser relacionada  con tu persona, ni tú mismo te puedas identificar con ella.\n\nSi tienes cualquier preocupación, duda, o preguntas sobre  cualquier aspecto de la captura, uso, y privacidad de los datos  que vas a dar, ya sea ahora, o en cualquier momento en el futuro  puedes contactar con nosotros en:\nTel. +[34] 943 010 885\nEmail: tourgune@tourgune.org</string>
+
+</resources>

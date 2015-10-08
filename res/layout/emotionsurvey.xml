@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/RelativeLayout02" android:layout_height="wrap_content"
+	android:layout_width="fill_parent">
+	<ImageView android:layout_width="wrap_content"
+		android:id="@+id/emotionsurveyTitleImage" android:src="@drawable/surveytitle" android:layout_height="100dip"></ImageView>
+	<TextView android:layout_height="wrap_content"
+		android:layout_below="@+id/emotionsurveyTitleImage"
+		android:layout_width="wrap_content" android:id="@+id/emotionsurveyTitle1"
+		android:layout_centerHorizontal="true" android:text="@string/emotionsurveyArousal"></TextView>
+	<ImageView android:layout_height="wrap_content" android:id="@+id/emotionsurveyImage1"
+		android:layout_width="fill_parent" android:layout_marginRight="17dip"
+		android:layout_marginTop="15dip" android:adjustViewBounds="true"
+		android:layout_marginLeft="15dip" android:layout_below="@+id/emotionsurveyTitle1" android:layout_marginBottom="8dip" android:background="@drawable/scalesmall"></ImageView>
+	<SeekBar android:layout_marginBottom="20dip"
+		android:progressDrawable="@drawable/seek_background"
+		android:layout_height="wrap_content" android:padding="20sp"
+		android:thumb="@drawable/seekbargreythumb" android:layout_width="fill_parent"
+		android:progress="0" android:layout_marginRight="8dip"
+		android:layout_marginLeft="5dip" android:layout_below="@+id/emotionsurveyTitle1" android:visibility="visible" android:id="@+id/emotionsurveyHistorySeekbarArousal"></SeekBar>
+	<SeekBar android:layout_marginBottom="20dip"
+		android:progressDrawable="@drawable/seek_background"
+		android:layout_height="wrap_content" android:padding="20sp"
+		android:thumb="@drawable/seekbarredthumb" android:layout_width="fill_parent"
+		android:progress="0" android:layout_marginRight="8dip"
+		android:layout_marginLeft="5dip" android:layout_below="@+id/emotionsurveyTitle1" android:visibility="visible" android:id="@+id/emotionsurveySeekBarArousal"></SeekBar>
+	<TextView android:id="@+id/emotionsurveyTitle2"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:layout_below="@+id/emotionsurveyImage1" android:layout_centerHorizontal="true" android:text="@string/emotionsurveyPleasure"></TextView>
+	<ImageView android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_marginRight="17dip" android:layout_marginTop="15dip"
+		android:adjustViewBounds="true" android:layout_marginLeft="15dip"
+		android:layout_alignParentLeft="true" android:id="@+id/emotionsurveyImage2"
+		android:layout_below="@+id/emotionsurveyTitle2" android:layout_marginBottom="8dip" android:background="@drawable/scalesmall"></ImageView>
+	<SeekBar android:layout_marginBottom="20dip"
+		android:progressDrawable="@drawable/seek_background"
+		android:layout_height="wrap_content" android:padding="20sp"
+		android:thumb="@drawable/seekbargreythumb" android:layout_width="fill_parent"
+		android:progress="0" android:layout_marginRight="8dip"
+		android:layout_marginLeft="5dip" android:layout_alignParentLeft="true"
+		android:layout_below="@+id/emotionsurveyTitle2" android:id="@+id/emotionsurveyHistorySeekbarPleasure"></SeekBar>
+	<SeekBar android:layout_marginBottom="20dip"
+		android:progressDrawable="@drawable/seek_background"
+		android:layout_height="wrap_content" android:padding="20sp"
+		android:thumb="@drawable/seekbarredthumb" android:layout_width="fill_parent"
+		android:progress="0" android:layout_marginRight="8dip"
+		android:layout_marginLeft="5dip" android:layout_alignParentLeft="true"
+		android:layout_below="@+id/emotionsurveyTitle2" android:id="@+id/emotionsurveySeekBarPleasure"></SeekBar>
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:id="@+id/emotionsurveyTitle3"
+		android:layout_below="@+id/emotionsurveyImage2" android:layout_centerHorizontal="true" android:text="@string/emotionsurveyDominance"></TextView>
+	<ImageView android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_marginRight="17dip" android:layout_marginTop="15dip"
+		android:adjustViewBounds="true" android:layout_marginLeft="15dip"
+		android:layout_alignParentLeft="true" android:id="@+id/emotionsurveyImage3"
+		android:layout_below="@+id/emotionsurveyTitle3" android:background="@drawable/scalesmall"></ImageView>
+	<SeekBar android:layout_marginBottom="20dip"
+		android:progressDrawable="@drawable/seek_background"
+		android:layout_height="wrap_content" android:padding="20sp"
+		android:thumb="@drawable/seekbargreythumb" android:layout_width="fill_parent"
+		android:progress="0" android:layout_marginRight="8dip"
+		android:layout_marginLeft="5dip" android:layout_alignParentLeft="true"
+		android:layout_below="@+id/emotionsurveyTitle3" android:id="@+id/emotionsurveyHistorySeekbarDominance"></SeekBar>
+	<SeekBar android:layout_marginBottom="20dip"
+		android:progressDrawable="@drawable/seek_background"
+		android:layout_height="wrap_content" android:padding="20sp"
+		android:thumb="@drawable/seekbarredthumb" android:layout_width="fill_parent"
+		android:progress="0" android:layout_marginRight="8dip"
+		android:layout_marginLeft="5dip" android:layout_alignParentLeft="true"
+		android:layout_below="@+id/emotionsurveyTitle3" android:id="@+id/emotionsurveySeekBarDominance"></SeekBar>
+	<Button android:id="@+id/emotionsurveySubmitButton"
+		android:layout_alignParentBottom="true"
+		android:layout_width="100dip"
+		android:text="@string/emotionsurveyDone" android:layout_height="60dip"
+		style="@style/customDoneButton" android:layout_centerHorizontal="true"></Button>
+	<ImageView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/emotionsurveyLogo"
+		android:src="@drawable/logo" android:layout_alignParentBottom="false" android:layout_alignBottom="@+id/emotionsurveySubmitButton"
+		android:layout_marginBottom="5dip" android:layout_alignParentLeft="true" android:layout_marginLeft="5dip" android:layout_alignTop="@+id/emotionsurveyLogo"></ImageView>
+	<ImageView android:id="@+id/imageView1" android:background="@drawable/dss2016" android:layout_alignParentBottom="true" android:layout_alignParentRight="true" android:layout_width="85dip" android:layout_height="60dip"></ImageView>
+</RelativeLayout>

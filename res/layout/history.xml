@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+
+
+
+
+
+
+
+
+
+<ListView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/historyCommitTxt" android:layout_alignParentTop="true" android:id="@+id/historyListView"></ListView>
+
+
+<Button android:layout_height="wrap_content" android:id="@+id/historyDropButton" android:text="Delete" android:layout_alignParentBottom="true" android:layout_width="fill_parent"></Button>
+<Button android:layout_height="wrap_content" android:id="@+id/historyCommitTxt" android:text="Commit" android:layout_width="fill_parent" android:layout_above="@+id/historyDropButton" android:layout_alignLeft="@+id/historyDropButton" android:layout_alignRight="@+id/historyDropButton"></Button>
+</RelativeLayout>

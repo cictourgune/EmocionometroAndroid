@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="configUserCode">Nuevo código usuario</string>
+    <string name="configSeekbarMinMovement">SeekbarMinMovement(%)</string>
+    <string name="configPreciseness">Precisión de la escala</string>
+    <string name="configHasSeekbarMemory">¿Tiene memoria la escala?</string>
+    <string name="configIsSurveyRandom">¿Es aleatoria la encuesta?</string>
+    <string name="configRandomLapse">Intervalo aleatoriedad (min.)</string>
+    <string name="configSurveyPeriod">Intervalo encuesta (min.)</string>
+    <string name="configIsLimitedInTime">¿Limitada por fecha/tiempo?</string>
+    <string name="configStartTime">Hora inicio (HH:mm)</string>
+    <string name="configEndTime">Hora fin (HH:mm)</string>
+    <string name="configNumberOfDays">Número de días</string>
+    <string name="configLongClick">Usar long click</string>
+    <string name="configDoesSeekbarStartInZero">¿Empieza el indicador en 0?</string>
+
+</resources>

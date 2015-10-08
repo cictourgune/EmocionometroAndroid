@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="configUserCode">New user Code:</string>
+    <string name="configSeekbarMinMovement">SeekbarMinMovement(%)</string>
+    <string name="configPreciseness">Seekbar preciseness</string>
+    <string name="configHasSeekbarMemory">Has seekBar Memory?</string>
+    <string name="configIsSurveyRandom">Is survey Random?</string>
+    <string name="configRandomLapse">Survey random lapse (min.)</string>
+    <string name="configSurveyPeriod">Survey Period (min.)</string>
+    <string name="configIsLimitedInTime">Is limited by date/time?</string>
+    <string name="configStartTime">Start Time (HH:mm)</string>
+    <string name="configEndTime">End Time (HH:mm)</string>
+    <string name="configNumberOfDays">Number of days</string>
+    <string name="configLongClick">Use longClick</string>
+    <string name="configDoesSeekbarStartInZero">Does seekBar Start in Zero?</string>
+
+</resources>

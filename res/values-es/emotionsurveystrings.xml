@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emotionsurveyArousal">Activacion</string>
+    <string name="emotionsurveyPleasure">Agrado</string>
+    <string name="emotionsurveyDominance">Dominio</string>
+    <string name="emotionsurveyDone">Hecho</string>
+    <string name="emotionsurveyHelp">Help</string>
+</resources>
